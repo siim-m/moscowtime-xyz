@@ -10,32 +10,21 @@
   const noFrame = $page.url.searchParams.get('noframe') === 'true' ? true : false;
 
   const activeViews: ActiveViewsStore = getContext('activeViews');
-
-  console.log('activeViews', $activeViews);
-  console.log('viewsMap', [...viewsMap]);
 </script>
 
 <svelte:head>
   <title>Moscow Time</title>
   <meta
-    name="twitter:title"
-    content="Moscow Time"
-  />
-  <meta
-    name="twitter:card"
-    content="summary_large_image"
+    name="description"
+    content="The best bitcoin meme of 2021"
   />
   <meta
     name="twitter:description"
     content="The best bitcoin meme of 2021"
   />
   <meta
-    name="description"
-    content="The best bitcoin meme of 2021"
-  />
-  <meta
-    name="twitter:image"
-    content="https://moscowtime.xyz/card.png"
+    name="twitter:title"
+    content="Moscow Time"
   />
 </svelte:head>
 

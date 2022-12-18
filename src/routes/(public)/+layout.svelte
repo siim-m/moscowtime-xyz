@@ -9,22 +9,9 @@
 </script>
 
 <svelte:head>
-  <title>Moscow Time</title>
-  <meta
-    name="twitter:title"
-    content="Moscow Time"
-  />
   <meta
     name="twitter:card"
     content="summary_large_image"
-  />
-  <meta
-    name="twitter:description"
-    content="The best bitcoin meme of 2021"
-  />
-  <meta
-    name="description"
-    content="The best bitcoin meme of 2021"
   />
   <meta
     name="twitter:image"

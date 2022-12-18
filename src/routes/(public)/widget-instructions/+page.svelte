@@ -8,6 +8,14 @@
     name="description"
     content="The Moscow Time widget lets you easily embed a virtual BLOCKCLOCK on your own site."
   />
+  <meta
+    name="twitter:title"
+    content="Moscow Time | Widget Instructions"
+  />
+  <meta
+    name="twitter:description"
+    content="The Moscow Time widget lets you easily embed a virtual BLOCKCLOCK on your own site."
+  />
 </svelte:head>
 
 <div class="prose prose-lg mx-auto mt-16 hover:prose-a:text-orange-500 prose-img:rounded-xl">

@@ -1,6 +1,5 @@
 :root {
-  --clock-display-background-color: #2d2d2d;
-  --clock-display-text-color: #b0b0b0;
+  --clock-display-text-color: #cfd6d6;
 }
 
 #blockclock-container {
@@ -21,12 +20,11 @@
 
 #blockclock-display {
   background-size: cover;
-  width: 59%;
-  height: 50.25%;
-  margin-top: 9.55%;
-  margin-left: 20.65%;
+  width: 53.5%;
+  height: 42.75%;
+  margin-top: 12.75%;
+  margin-left: 23%;
   border-radius: 2%/3.5%;
-  background-color: var(--clock-display-background-color);
   color: var(--clock-display-text-color);
 }
 
@@ -39,6 +37,10 @@
   padding-top: 10.25%;
   font-family: 'Steelfish Rounded Bold';
   line-height: 0.85;
+}
+
+#blockclock-display-main-section-1 {
+  margin-top: 0.75%;
 }
 
 #blockclock-display-bottom-section {

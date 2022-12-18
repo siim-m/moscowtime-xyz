@@ -26,13 +26,15 @@
   <title>Moscow Time | Snapshot</title>
 </svelte:head>
 
-<div class="px-6 pt-[189px]">
-  <Clock
-    interval={60000}
-    {value}
-    {model}
-    {noFrame}
-  />
+<div class="px-6">
+  <div class={model === 'micro' ? 'mx-auto w-9/12 pt-[53px]' : 'pt-[189px]'}>
+    <Clock
+      interval={60000}
+      {value}
+      {model}
+      {noFrame}
+    />
+  </div>
   <p class="pt-16 text-center font-mono text-3xl text-neutral-600">
     {timestamp} | BLOCKCLOCK is a registered trademark of Coinkite Inc.
   </p>
